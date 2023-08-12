@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zebra-Stripped Table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      td:nth-child(odd) {
+        background-color: #8f9aa5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Registration Successful</h1>
+    <p>Hello, {{name}}</p>
+    <table>
+      <tr>
+        <td>Registration ID</td>
+        <td>{{registrationID}}</td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>{{name}}</td>
+      </tr>
+      <tr>
+        <td>Course</td>
+        <td>{{course}}</td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>{{gender}}</td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td>{{phone}}</td>
+      </tr>
+      <tr>
+        <td>Current Address</td>
+        <td>{{currentAddress}}</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>{{email}}</td>
+      </tr>
+      <tr>
+        <td>Created At</td>
+        <td>{{createdAt}}</td>
+      </tr>
+    </table>
+  </body>
+</html>

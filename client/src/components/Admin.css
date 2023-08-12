@@ -1,0 +1,10 @@
+.distance {
+    margin: 15px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+

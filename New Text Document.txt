@@ -1,0 +1,9 @@
+
+1. api ko data fetch
+
+2. data display
+
+3. authentication
+
+4. look and feel and validation,
+retype password, registration number

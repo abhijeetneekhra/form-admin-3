@@ -1,0 +1,25 @@
+.required:before{
+  content:"*";
+  font-weight:bold;
+}
+
+.alignment {
+    padding: 500px;
+    padding-top: 10px;
+}
+
+.marg {
+    text-align: center;
+    margin: 43px;
+}
+
+.input-error{
+    color: #f13a3a;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+  }
+  
+  .input-error-border{
+    border: 1px solid #c51244 !important;
+  }
